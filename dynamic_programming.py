@@ -5,21 +5,25 @@ F(n) = F(n -1) + F(n - 2)
 F(3) = F(2) + F(1) = 1 + 1 = 2
 F(4) = F(3) + F(2) = 2 + 1 = 3
 
-Fibonnaci is implemented using recursive function in both cases to present a clear solution. However, the first
-function is not optimized due to too many recalculation that has been made in the recursive approach. 
-To avoid this negative effect, was implemented dynamic programming in the second solution.
+Fibonnaci is implemented using recursive function in both cases to present a 
+clear solution. However, the first function is not optimized due to too many 
+recalculations that have been made in the recursive approach. To avoid this 
+negative effect was implemented dynamic programming in the second solution.
 
 Dynamic Programming
 
-Dynamic Programming is a technique for solving problems with overlapping subproblems. 
-Each sub-problem is solved only once and the result of each sub-problem is stored in a table 
-( generally implemented as an array or a hash table) for future references. 
-These sub-solutions may be used to obtain the original solution and the technique of storing 
-the sub-problem solutions is known as memoization.
+Dynamic Programming is a technique for solving problems with overlapping 
+subproblems. Each sub-problem is solved only once and the result of each 
+sub-problem is stored in a table (generally implemented as an array or a 
+hash table) for future references. These sub-solutions may be used to obtain 
+the original solution and the technique of storing the sub-problem solutions 
+is known as memoization.
 
-In computing, memoization is an optimization technique used primarily to speed up computer programs
-by storing the results of expensive function calls and returning the cached result when the same inputs occur again.
+In computing, memoization is an optimization technique used primarily to speed
+up computer programs by storing the results of expensive function calls and 
+returning the cached result when the same inputs occur again.
 
+The main approach is solving optimization problem
 '''
 
 # 1. slow version
