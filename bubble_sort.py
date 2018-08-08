@@ -1,5 +1,6 @@
 '''
-Bubble Sort
+Bubble Sort is the simplest sorting algorithm that works by repeatedly 
+swapping the adjacent elements if they are in wrong order.
 '''
 
 l = [30, 50, 10, 35, 70, 45, 80, 100, 22]
